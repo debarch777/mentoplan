@@ -160,4 +160,5 @@ Built with NumPy, SciPy, scikit-image, trimesh, pypardiso, FastAPI, React and th
 
 ## License
 
-[MIT](LICENSE). Research use only; see the medical disclaimer in the license file.
+[MIT](LICENSE). Research use only: MentoPlan is not a medical device, has not been cleared by any
+regulator, and must not be the sole basis for any clinical or surgical decision.
