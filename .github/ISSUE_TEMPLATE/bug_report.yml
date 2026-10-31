@@ -1,0 +1,20 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "**Do not attach identifiable patient scans or photos.** Describe the scan instead (modality, scanner, voxel size, field of view)."
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: "What did you do, what did you expect, what happened instead?"}
+    validations: {required: true}
+  - type: textarea
+    id: scan
+    attributes: {label: Input, description: "Modality (CT/CBCT/face scan), format, voxel size, which part of the face is in the field of view"}
+  - type: textarea
+    id: log
+    attributes: {label: Log output, description: "Relevant lines from .server.log or the terminal", render: text}
+  - type: input
+    id: env
+    attributes: {label: Environment, placeholder: "OS, Python version, browser, RAM"}

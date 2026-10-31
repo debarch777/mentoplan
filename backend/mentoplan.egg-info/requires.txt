@@ -1,0 +1,19 @@
+numpy>=1.26
+scipy>=1.11
+scikit-image>=0.22
+pydicom>=2.4
+nibabel>=5
+trimesh>=4
+fast-simplification
+rtree
+fastapi>=0.110
+uvicorn[standard]
+python-multipart
+pyamg
+
+[:platform_machine == "x86_64"]
+pypardiso
+
+[dev]
+pytest
+httpx

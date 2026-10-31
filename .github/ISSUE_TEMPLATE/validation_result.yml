@@ -1,0 +1,25 @@
+name: Validation result
+description: Share accuracy numbers from a real pre/post-operative case (numbers only)
+labels: [validation]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you! Paste only the JSON written by `mentoplan validate-ortho`. **No scans, images or identifying details.** Confirm the data use was ethically approved."
+  - type: input
+    id: procedure
+    attributes: {label: Procedure, placeholder: "chin implant (material, size) / genioplasty / orthognathic"}
+    validations: {required: true}
+  - type: input
+    id: interval
+    attributes: {label: Post-operative interval, placeholder: "e.g. 12 months"}
+  - type: textarea
+    id: json
+    attributes: {label: validate-ortho JSON, render: json}
+    validations: {required: true}
+  - type: checkboxes
+    id: ethics
+    attributes:
+      label: Data use
+      options:
+        - label: The data were de-identified and their use for this purpose was approved.
+          required: true

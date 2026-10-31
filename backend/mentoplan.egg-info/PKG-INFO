@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: mentoplan
+Version: 0.1.0
+Summary: Patient-specific virtual chin implant surgery planning with physics-based soft-tissue prediction
+Requires-Python: >=3.11
+Requires-Dist: numpy>=1.26
+Requires-Dist: scipy>=1.11
+Requires-Dist: scikit-image>=0.22
+Requires-Dist: pydicom>=2.4
+Requires-Dist: nibabel>=5
+Requires-Dist: trimesh>=4
+Requires-Dist: fast-simplification
+Requires-Dist: rtree
+Requires-Dist: pypardiso; platform_machine == "x86_64"
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn[standard]
+Requires-Dist: python-multipart
+Requires-Dist: pyamg
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: httpx; extra == "dev"

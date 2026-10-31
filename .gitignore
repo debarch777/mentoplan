@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/cases/*/cache/
+node_modules/
+frontend/dist/
+.pytest_cache/
+.server.pid
+.server.log
+
+# patient scan volumes (large; sample data: scripts/get_sample_data.sh)
+data/cases/*/input/
+*.tsbuildinfo
+data/cases/
+validation/*.npz

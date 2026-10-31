@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use MentoPlan in research, please cite it as below."
+title: "MentoPlan: patient-specific virtual chin implant surgery planning with physics-based soft-tissue prediction and uncertainty"
+authors:
+  - name: "MentoPlan contributors"
+version: 0.1.0
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/debarch777/mentoplan"
+keywords:
+  - surgical planning
+  - chin implant
+  - genioplasty
+  - finite element method
+  - soft-tissue prediction
+  - CBCT
+  - uncertainty quantification

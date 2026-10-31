@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mentoplan"
+version = "0.1.0"
+description = "Patient-specific virtual chin implant surgery planning with physics-based soft-tissue prediction"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "MentoPlan contributors" }]
+keywords = ["surgical planning", "chin implant", "genioplasty", "finite element", "soft tissue",
+            "CBCT", "medical imaging", "craniomaxillofacial", "3d", "biomechanics"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Healthcare Industry",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "numpy>=1.26", "scipy>=1.11", "scikit-image>=0.22", "pydicom>=2.4", "nibabel>=5",
+  "trimesh>=4", "fast-simplification", "rtree", "pypardiso; platform_machine=='x86_64'",
+  "fastapi>=0.110", "uvicorn[standard]", "python-multipart", "pyamg",
+]
+
+[project.urls]
+Homepage = "https://github.com/debarch777/mentoplan"
+Documentation = "https://github.com/debarch777/mentoplan/tree/main/docs"
+Issues = "https://github.com/debarch777/mentoplan/issues"
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx"]
+
+[project.scripts]
+mentoplan = "mentoplan.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mentoplan*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

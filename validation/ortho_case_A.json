@@ -1,0 +1,150 @@
+{
+  "registration_rms_mm": 1.1099696822255507,
+  "bone_movements": {
+    "bony_landmark_displacement_mm": {
+      "pogonion": [
+        -0.00572160155367496,
+        -6.997903564212081,
+        -2.4821998450545095
+      ],
+      "b_point": [
+        0.6466333367285773,
+        -5.221437395348076,
+        -1.6336632217893978
+      ],
+      "menton": [
+        -0.3279829950603249,
+        -7.999122125091638,
+        -1.55254560973178
+      ],
+      "gnathion": [
+        -0.14260562698972712,
+        -7.572520854331032,
+        -2.2901038129562608
+      ],
+      "lower_incisor_tip": [
+        0.5026915285302489,
+        -2.8338713796346653,
+        -1.047205881871669
+      ]
+    },
+    "maxilla": {
+      "translation_at_centroid_mm": [
+        0.031581279746957236,
+        2.146217973655318,
+        0.28870090640843316
+      ],
+      "rotation_deg": 6.328854730267114,
+      "fit_rms_mm": 0.700430028087101
+    },
+    "mandible": {
+      "translation_at_centroid_mm": [
+        -0.37450359112693876,
+        -3.7011332438738584,
+        2.143610377694415
+      ],
+      "rotation_deg": 6.56675057362963,
+      "fit_rms_mm": 0.7272384942798954
+    },
+    "chin_segment": {
+      "translation_at_centroid_mm": [
+        -0.1416828614496919,
+        -6.1114565588413114,
+        -0.31270404926143414
+      ],
+      "rotation_deg": 7.694995004886324,
+      "fit_rms_mm": 0.43407018968839417,
+      "independent_genioplasty": false,
+      "difference_from_mandible_mm": 0.7063389430191094
+    }
+  },
+  "whole_face_scan_offset_mm": -0.6562045004463566,
+  "raw_without_offset_correction": {
+    "prediction": {
+      "mean_abs_mm": 2.639469370234456,
+      "rms_mm": 3.1988410415379547,
+      "median_abs_mm": 2.2770138144297203,
+      "p90_abs_mm": 5.369160187044004,
+      "within_1mm": 0.2170468009478673,
+      "within_2mm": 0.4229117298578199
+    },
+    "no_change_baseline": {
+      "mean_abs_mm": 4.069695459471266,
+      "rms_mm": 4.950654326809934,
+      "median_abs_mm": 3.870199282023611,
+      "p90_abs_mm": 8.193229958795818,
+      "within_1mm": 0.16498815165876776,
+      "within_2mm": 0.2896919431279621
+    }
+  },
+  "n_vertices_scored": 13504,
+  "prediction": {
+    "mean_abs_mm": 2.2281373572352976,
+    "rms_mm": 2.7967905648250433,
+    "median_abs_mm": 1.7272547476557185,
+    "p90_abs_mm": 4.8498661384590545,
+    "within_1mm": 0.2476303317535545,
+    "within_2mm": 0.5742002369668247
+  },
+  "no_change_baseline": {
+    "mean_abs_mm": 3.6527694445641465,
+    "rms_mm": 4.495425590167959,
+    "median_abs_mm": 3.2985525953026427,
+    "p90_abs_mm": 7.550906801705888,
+    "within_1mm": 0.1831309241706161,
+    "within_2mm": 0.32738447867298576
+  },
+  "changed_region": {
+    "n": 11031,
+    "prediction": {
+      "mean_abs_mm": 2.505610464376108,
+      "rms_mm": 3.031842473566268,
+      "median_abs_mm": 1.98198256637306,
+      "p90_abs_mm": 5.034000951958248,
+      "within_1mm": 0.1689783337866014,
+      "within_2mm": 0.5033088568579458
+    },
+    "no_change_baseline": {
+      "mean_abs_mm": 4.36216559606579,
+      "rms_mm": 4.966673188813954,
+      "median_abs_mm": 3.883199553555349,
+      "p90_abs_mm": 8.034552144849368,
+      "within_1mm": 0.0,
+      "within_2mm": 0.17659323724050405
+    }
+  },
+  "interval_coverage_90": 0.9140254739336493,
+  "landmarks": {
+    "soft_pogonion": {
+      "actual_change_mm": -13.608855024440913,
+      "predicted_change_mm": -6.176948459635788,
+      "error_mm": -7.431906564805125
+    },
+    "labrale_inferius": {
+      "actual_change_mm": -11.772986269553552,
+      "predicted_change_mm": -3.3609618820393408,
+      "error_mm": -8.412024387514212
+    },
+    "soft_b_point": {
+      "actual_change_mm": -5.685112742811768,
+      "predicted_change_mm": -2.391307512376413,
+      "error_mm": -3.2938052304353547
+    },
+    "soft_menton": {
+      "actual_change_mm": -3.2606699294840897,
+      "predicted_change_mm": 0.06867595874717436,
+      "error_mm": -3.329345888231264
+    },
+    "labrale_superius": {
+      "actual_change_mm": -6.673064708947391,
+      "predicted_change_mm": 0.12028373629615086,
+      "error_mm": -6.7933484452435415
+    },
+    "subnasale": {
+      "actual_change_mm": -7.470198780624194,
+      "predicted_change_mm": 0.11148894089987849,
+      "error_mm": -7.581687721524072
+    }
+  },
+  "seconds": 139.7
+}

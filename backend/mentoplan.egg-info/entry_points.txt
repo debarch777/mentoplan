@@ -1,0 +1,2 @@
+[console_scripts]
+mentoplan = mentoplan.cli:main

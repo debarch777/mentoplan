@@ -1,0 +1,28 @@
+{
+ "case_id": "20261031-d9290a13",
+ "soft_landmark_fit_rms_mm": 2.981933230243174,
+ "error_pogonion_mm": 3.7636789774283828,
+ "error_b_point_mm": 4.501793535265082,
+ "error_menton_mm": 4.836195063724831,
+ "error_mental_foramen_right_mm": 3.582138962916725,
+ "error_mental_foramen_left_mm": 1.4419730734445717,
+ "error_anterior_root_apex_mm": 12.602627135107433,
+ "soft_thickness_pog_true": 7.430695571979551,
+ "soft_thickness_pog_est": 12.363171532631064,
+ "prediction_6mm": {
+  "ct": {
+   "pog_fwd_median": 3.0531069111098645,
+   "p05": 1.5536398262334785,
+   "p95": 5.868882012383068,
+   "menton_down": 3.496486792953476,
+   "ratio_post": 0.5605788330409238
+  },
+  "scan": {
+   "pog_fwd_median": 2.145545956875658,
+   "p05": 0.9788343689736649,
+   "p95": 4.687032940309706,
+   "menton_down": 1.6130614610085843,
+   "ratio_post": 0.40565318673387635
+  }
+ }
+}
