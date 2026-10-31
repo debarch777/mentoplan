@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Patient-specific virtual chin implant surgery planning with physics-based soft-tissue prediction"
 requires-python = ">=3.11"
 license = "MIT"
-authors = [{ name = "MentoPlan contributors" }]
+authors = [{ name = "debarch777" }]
 keywords = ["surgical planning", "chin implant", "genioplasty", "finite element", "soft tissue",
             "CBCT", "medical imaging", "craniomaxillofacial", "3d", "biomechanics"]
 classifiers = [
